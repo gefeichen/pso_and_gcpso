@@ -22,4 +22,4 @@ elseif faNumber > failure
     ft = 0.5 * ft;
     success = success + 1; %renew success?????? 
 end
-x(Nmax,:) = yBest(:) + w * speedKeep + ft .* (1 - 2 * rand(1,dimensions)); 
+x(nMax,:) = yBest(1,:) + w * speedKeep + ft .* (1 - 2 * rand(1,dimensions)); 
